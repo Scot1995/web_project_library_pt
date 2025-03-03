@@ -26,10 +26,10 @@
               <a href="#events" class="nav__link">Eventos</a>
             </li>
             <li>
-              <a class="nav__link">Seja um membro</a>
+              <a href="#membership" class="nav__link">Seja um membro</a>
             </li>
             <li>
-              <a class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -53,7 +53,6 @@
           <p class="header__address">Triple Peaks, 200 Success Avenue</p>
         </div>
       </header>
-
       <main class="content">
         <section class="staff" id="staff">
           <h2 class="staff__title">Escolhas da Equipe</h2>
@@ -74,7 +73,6 @@
                 </p>
               </div>
             </li>
-
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -111,7 +109,6 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -170,48 +167,145 @@
           <div class="events__cover">
             <img src="./images/cafe.png" alt="cafe" class="events__image" />
             <div class="person person_name_feynman">
-              <p class="person person_caption">Joan Feynman</p>
+              <p class="person__caption">Joan Feynman</p>
               <img
-                class="person__image person__image_size_l"
                 src="./images/person_feynman.png"
                 alt="Joan"
+                class="person__image person__image_size_l"
               />
             </div>
             <div class="person person_name_burbidge">
-              <p class="person person_caption">Margaret Burbidge</p>
+              <p class="person__caption">Margaret Burbidge</p>
               <img
-                class="person__image person__image_size_m"
-                alt="Margaret"
                 src="./images/person_burbidge.png"
+                alt="Margaret"
+                class="person__image person__image_size_m"
               />
             </div>
             <div class="person person_name_tarter">
-              <p class="person person_caption">Jill Tarter</p>
+              <p class="person__caption">Jill Tarter</p>
               <img
-                class="person__image person__image_size_m"
-                alt="Jill"
                 src="./images/person_tarter.png"
+                alt="Jill"
+                class="person__image person__image_size_m"
               />
             </div>
             <div class="person person_name_mitchell">
               <img
-                class="person__image person__image_size_s"
-                alt="Maria"
                 src="./images/person_mitchell.png"
+                alt="Maria"
+                class="person__image person__image_size_s"
               />
-              <p class="person person_caption">Maria Mitchell</p>
+              <p class="person__caption">Maria Mitchell</p>
             </div>
             <div class="person person_name_cannon">
               <img
-                class="person__image person__image_size_m"
-                alt="Annie"
                 src="./images/person_cannon.png"
+                alt="Annie"
+                class="person__image person__image_size_m"
               />
-              <p class="person person_caption">Annie Jump Cannon</p>
+              <p class="person__caption">Annie Jump Cannon</p>
             </div>
           </div>
         </section>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">
+            Tornar-se membro da biblioteca é fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Preencha o formulário de filiação online ou pessoalmente.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Venha retirar seu cartão da biblioteca na recepção.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Assine o verso do cartão.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Aproveite todos os benefícios incríveis!
+              </p>
+            </li>
+          </ul>
+        </section>
       </main>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Horário de Funcionamento</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Dias úteis: 9h - 20h</li>
+              <li class="footer__list-item">Finais de semana: 10h às 18h</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociais</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  Facebook<img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                /></a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  Instagram<img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Pedro Gontijo Scotellaro</p>
+      </footer>
     </div>
   </body>
 </html>
